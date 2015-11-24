@@ -13,8 +13,8 @@
 		6651A60A1BF9C10E002BFFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651A6081BF9C10E002BFFBB /* Main.storyboard */; };
 		6651A60C1BF9C10E002BFFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6651A60B1BF9C10E002BFFBB /* Assets.xcassets */; };
 		6651A60F1BF9C10E002BFFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651A60D1BF9C10E002BFFBB /* LaunchScreen.storyboard */; };
-		6651A6181BF9C11C002BFFBB /* JsonToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6651A6171BF9C11C002BFFBB /* JsonToModel.m */; };
 		6651A61B1BF9C2F1002BFFBB /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6651A61A1BF9C2F1002BFFBB /* TestModel.m */; };
+		66CA00AE1C04708000186D44 /* JsonToModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA00AD1C04708000186D44 /* JsonToModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		6651A60B1BF9C10E002BFFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6651A60E1BF9C10E002BFFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6651A6101BF9C10E002BFFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6651A6161BF9C11C002BFFBB /* JsonToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToModel.h; sourceTree = "<group>"; };
-		6651A6171BF9C11C002BFFBB /* JsonToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToModel.m; sourceTree = "<group>"; };
 		6651A6191BF9C2F1002BFFBB /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		6651A61A1BF9C2F1002BFFBB /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		66CA00AC1C04708000186D44 /* JsonToModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonToModel.h; sourceTree = "<group>"; };
+		66CA00AD1C04708000186D44 /* JsonToModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonToModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +64,13 @@
 		6651A5FE1BF9C10E002BFFBB /* JsonToModel */ = {
 			isa = PBXGroup;
 			children = (
+				66CA00AB1C04708000186D44 /* JsonToModel */,
 				6651A6021BF9C10E002BFFBB /* AppDelegate.h */,
 				6651A6031BF9C10E002BFFBB /* AppDelegate.m */,
 				6651A6051BF9C10E002BFFBB /* ViewController.h */,
 				6651A6061BF9C10E002BFFBB /* ViewController.m */,
 				6651A6191BF9C2F1002BFFBB /* TestModel.h */,
 				6651A61A1BF9C2F1002BFFBB /* TestModel.m */,
-				6651A6161BF9C11C002BFFBB /* JsonToModel.h */,
-				6651A6171BF9C11C002BFFBB /* JsonToModel.m */,
 				6651A6081BF9C10E002BFFBB /* Main.storyboard */,
 				6651A60B1BF9C10E002BFFBB /* Assets.xcassets */,
 				6651A60D1BF9C10E002BFFBB /* LaunchScreen.storyboard */,
@@ -87,6 +86,15 @@
 				6651A6001BF9C10E002BFFBB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66CA00AB1C04708000186D44 /* JsonToModel */ = {
+			isa = PBXGroup;
+			children = (
+				66CA00AC1C04708000186D44 /* JsonToModel.h */,
+				66CA00AD1C04708000186D44 /* JsonToModel.m */,
+			);
+			path = JsonToModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +170,7 @@
 				6651A61B1BF9C2F1002BFFBB /* TestModel.m in Sources */,
 				6651A6071BF9C10E002BFFBB /* ViewController.m in Sources */,
 				6651A6041BF9C10E002BFFBB /* AppDelegate.m in Sources */,
-				6651A6181BF9C11C002BFFBB /* JsonToModel.m in Sources */,
+				66CA00AE1C04708000186D44 /* JsonToModel.m in Sources */,
 				6651A6011BF9C10E002BFFBB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +318,7 @@
 				6651A6151BF9C10E002BFFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
